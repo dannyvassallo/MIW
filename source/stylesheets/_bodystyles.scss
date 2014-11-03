@@ -1,0 +1,214 @@
+body{
+  background-color: #371f21;
+  overflow-x: hidden;
+  white-space: nowrap;
+  height: 100%;
+  color: #fff; 
+  margin-bottom: 50px;
+}
+
+.header{
+// max-width: 640px;
+ margin: 0 auto;
+ background-color: #371f21;
+ 
+ img{
+ width: 100%;
+ }
+
+}
+
+.promo{
+  width: 100%;
+  background-color: #f9f9f9;
+  position: relative;
+
+  img{
+    //max-width: 640px;
+    margin: 0 auto;
+    width: 100%;
+    display: inherit;
+  }
+
+}
+
+.promo:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.backpacks{
+  display: inline-block;
+  width: 100%;
+  overflow-x: hidden;
+  z-index: 96;
+  top: -1435px;
+  position: relative;
+  display: none;
+
+}
+
+.left-backpack, .right-backpack{
+  max-width: 500px;
+  height: auto;
+  position: relative;
+
+  img{
+    width: 100%;
+  }
+
+}
+
+
+.left-backpack{
+  left: -60px;
+  float: left;
+}
+
+.right-backpack{
+  right: -60px;
+  float: right;
+  display: none !important;
+}
+
+@media all and (max-width: 1750px) and (min-width: 1400px){
+  .backpacks{
+    top: -1356px;
+  }
+}
+@media all and (max-width: 1399px) and (min-width: 900px){
+  .backpacks{
+    top: -1300px;
+  }
+}
+@media all and (max-width: 899px) and (min-width: 770px){
+  .backpacks{
+    top: -1276px;
+  }
+}
+@media all and (max-width: 769px) and (min-width: 641px){
+  .backpacks{
+    top: -1300px;
+  }
+}
+@media all and (max-width: 640px) and (min-width: 620px){
+  .backpacks{
+    top: -1300px;
+  }
+}
+@media all and (max-width: 620px) and (min-width: 520px){
+  .backpacks{
+    top: -1300px;
+  }
+  .left-backpack, .right-backpack{
+  } 
+}
+@media all and (max-width: 520px) and (min-width: 513px){
+  .backpacks{
+    top: -1300px;
+    left: -50px;
+  }
+  .left-backpack, .right-backpack{
+  } 
+}
+@media all and (max-width: 513px) and (min-width: 450px){
+  .backpacks{
+    top: -1310px;
+    left: -50px;
+  }
+  .left-backpack, .right-backpack{
+  } 
+}
+@media all and (max-width: 450px) and (min-width: 0px){
+  .backpacks{
+    top: -1300px;
+  }
+  .left-backpack, .right-backpack{
+    max-width: 250px;
+  } 
+}
+.prize{
+  width: 100%;
+  background-color: #f9078f;
+  padding-bottom: 30px;
+
+  img{
+    margin: 0 auto;
+    display: inherit;
+    width: 100%;
+    //max-width: 640px;
+  }
+
+}
+
+.date{
+  width: 100%;
+  background-color: #fff;
+  
+  img{
+    margin: 0 auto;
+    display: inherit;
+    width: 100%;
+    //max-width: 500px;
+    padding: 10px 10% 10px 10%;
+  }
+
+}
+.rules{
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0 20px 0;
+
+  a{
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    z-index: 99;
+    font-size: 30px;
+  }
+}
+
+
+
+input {
+    border:2px solid #dadada;
+    border-radius:7px;
+    padding:5px;
+    font-size: 23px !important;
+}
+
+.error { 
+    outline:none;
+    border-color: blue;
+    box-shadow:0 0 10px blue;
+}
+
+p{
+  word-wrap:normal;  
+}
+
+.container{
+  margin-top: 150px;
+  font-size: 20px;
+}
+
+.megansubmit{
+  margin: 0 auto;
+  border: none;
+  background-image: url(https://s3.amazonaws.com/myfangate.com/rdtunein/enterbutton.jpg);
+  width: 238px;
+  height: 59px;
+  margin: 20px 0 20px 0;
+}
+
+.col-md-12{
+  margin-top: 20px;
+  a{
+    color: #fff;
+    text-decoration: underline;
+  }
+}
