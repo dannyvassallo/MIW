@@ -1,16 +1,20 @@
 body{
-  background-color: #371f21;
+  background-image: url(https://s3.amazonaws.com/myfangate.com/miwshazam/repeatpattern.jpg);
+  background-repeat: repeat;
   overflow-x: hidden;
   white-space: nowrap;
   height: 100%;
   color: #fff; 
-  margin-bottom: 50px;
 }
 
-.header{
+#ss-form{
+  padding: 0 40px;
+}
+
+.header, .blacktear, .collage{
 // max-width: 640px;
  margin: 0 auto;
- background-color: #371f21;
+// background-color: #371f21;
  
  img{
  width: 100%;
@@ -18,161 +22,11 @@ body{
 
 }
 
-.promo{
-  width: 100%;
-  background-color: #f9f9f9;
-  position: relative;
-
+.collage{
   img{
-    //max-width: 640px;
-    margin: 0 auto;
-    width: 100%;
-    display: inherit;
-  }
-
-}
-
-.promo:after {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-}
-
-.backpacks{
-  display: inline-block;
-  width: 100%;
-  overflow-x: hidden;
-  z-index: 96;
-  top: -1435px;
-  position: relative;
-  display: none;
-
-}
-
-.left-backpack, .right-backpack{
-  max-width: 500px;
-  height: auto;
-  position: relative;
-
-  img{
-    width: 100%;
-  }
-
-}
-
-
-.left-backpack{
-  left: -60px;
-  float: left;
-}
-
-.right-backpack{
-  right: -60px;
-  float: right;
-  display: none !important;
-}
-
-@media all and (max-width: 1750px) and (min-width: 1400px){
-  .backpacks{
-    top: -1356px;
+    padding: 50px;
   }
 }
-@media all and (max-width: 1399px) and (min-width: 900px){
-  .backpacks{
-    top: -1300px;
-  }
-}
-@media all and (max-width: 899px) and (min-width: 770px){
-  .backpacks{
-    top: -1276px;
-  }
-}
-@media all and (max-width: 769px) and (min-width: 641px){
-  .backpacks{
-    top: -1300px;
-  }
-}
-@media all and (max-width: 640px) and (min-width: 620px){
-  .backpacks{
-    top: -1300px;
-  }
-}
-@media all and (max-width: 620px) and (min-width: 520px){
-  .backpacks{
-    top: -1300px;
-  }
-  .left-backpack, .right-backpack{
-  } 
-}
-@media all and (max-width: 520px) and (min-width: 513px){
-  .backpacks{
-    top: -1300px;
-    left: -50px;
-  }
-  .left-backpack, .right-backpack{
-  } 
-}
-@media all and (max-width: 513px) and (min-width: 450px){
-  .backpacks{
-    top: -1310px;
-    left: -50px;
-  }
-  .left-backpack, .right-backpack{
-  } 
-}
-@media all and (max-width: 450px) and (min-width: 0px){
-  .backpacks{
-    top: -1300px;
-  }
-  .left-backpack, .right-backpack{
-    max-width: 250px;
-  } 
-}
-.prize{
-  width: 100%;
-  background-color: #f9078f;
-  padding-bottom: 30px;
-
-  img{
-    margin: 0 auto;
-    display: inherit;
-    width: 100%;
-    //max-width: 640px;
-  }
-
-}
-
-.date{
-  width: 100%;
-  background-color: #fff;
-  
-  img{
-    margin: 0 auto;
-    display: inherit;
-    width: 100%;
-    //max-width: 500px;
-    padding: 10px 10% 10px 10%;
-  }
-
-}
-.rules{
-  margin: 0 auto;
-  text-align: center;
-  padding: 20px 0 20px 0;
-
-  a{
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    z-index: 99;
-    font-size: 30px;
-  }
-}
-
-
 
 input {
     border:2px solid #dadada;
@@ -196,19 +50,66 @@ p{
   font-size: 20px;
 }
 
-.megansubmit{
-  margin: 0 auto;
-  border: none;
-  background-image: url(https://s3.amazonaws.com/myfangate.com/rdtunein/enterbutton.jpg);
-  width: 238px;
-  height: 59px;
-  margin: 20px 0 20px 0;
-}
 
 .col-md-12{
   margin-top: 20px;
   a{
     color: #fff;
     text-decoration: underline;
+  }
+}
+
+h2{
+  text-align: center;
+}
+
+.btn-default, .btn-default:hover, .btn-default:active, .btn-default:focus{
+  color: white;
+  background-color: black;
+  border: 2px solid #fff;
+}
+
+.beforefooter{
+  img {
+          -moz-transform: scaleY(-1);
+          -o-transform: scaleY(-1);
+          -webkit-transform: scaleY(-1);
+          transform: scaleY(-1);
+          filter: FlipV;
+          -ms-filter: "FlipV";
+          width: 100%;
+  }
+}
+
+footer{
+  background-color: black;
+  height: 200px;
+  i{
+    margin-right: 10px;
+  }
+  i.fa{
+    padding: 10px 13px 10px 14px;
+    display: inline-block;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -moz-box-shadow: 0px 0px 2px #888;
+    -webkit-box-shadow: 0px 0px 2px #888;
+    box-shadow: 0px 0px 2px #888;
+    background-color: #fff;
+    color: #000;
+    font-size: 50px; 
+  }
+  .left-align{
+    float: left;
+    padding-left: 50px;
+  }
+  .right-align{
+    float: right;
+    padding-right: 50px;
+  }
+  .left-align, .right-align{
+    padding-bottom: 25px;
+    padding-top: 25px;
   }
 }
